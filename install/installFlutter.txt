@@ -1,0 +1,32 @@
+https://docs.flutter.dev/get-started/install/windows/desktop
+https://developer.android.com/studio/run/managing-avds
+
+1. ติดตั้ง Flutter SDK
+ 1.1. ดาวน์โหลด Flutter SDK:
+   ไปที่ Flutter SDK แล้วดาวน์โหลดไฟล์ ZIP ของ Flutter SDK
+
+ 1.2. แตกไฟล์ ZIP:
+   แตกไฟล์ ZIP ไปยังไดเร็กทอรีที่คุณต้องการติดตั้ง Flutter เช่น C:\flutter\flutter
+
+ 1.3. ตั้งค่า Environment Variable: 
+   เพิ่มเส้นทาง C:\flutter\flutter\bin ไปยัง PATH ใน Environment Variables ของระบบ
+
+
+2.ติดตั้ง Android Studio   เช่น C:\flutter\android
+   เพิ่ม PATH ใน Environment Variables ของ system
+        ANDROID_SDK_ROOT  => C:\flutter\android
+   และเพิ่ม PATH Variables
+   C:\flutter\android\tools
+   C:\flutter\android\tools\bin
+   C:\flutter\android\emulator 
+   C:\flutter\android\platform-tools
+
+3. Add emulator ใน  Android Studio
+   เปิด Android Studio
+   เพิ่มข้อมูลตามภาพ 
+   เลือก System Image ที่ตรงกับ Android เวอร์ชันที่คุณต้องการ เช่น 
+   Pie (Android 9.0), Q (Android 10), R (Android 11), หรือ S (Android 12)
+   Oreo (API Level 26) สำหรับ Android 8.0, Oreo (API Level 27) สำหรับ Android 8.1
+   Nougat (API Level 24) สำหรับ Android 7.0, Nougat (API Level 25) สำหรับ Android 7.1
+
+4. เข้า Command Line พิมพ์ flutter doctor เพื่อเช็คเครื่องเราพร้อมจะรัน Flutter ได้ยัง

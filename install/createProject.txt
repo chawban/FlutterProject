@@ -1,0 +1,32 @@
+การสร้างโปรเจค Flutter ใหม่ใน VS Code
+เปิด Command Palette:
+
+กด Ctrl+Shift+P เพื่อเปิด Command Palette
+สร้างโปรเจคใหม่:
+
+ใน Command Palette ให้พิมพ์ Flutter: New Project แล้วเลือกคำสั่งนั้น
+เลือก Application เมื่อถูกถามถึงประเภทของโปรเจค
+ตั้งชื่อโปรเจคแล้วกด Enter
+เลือกไดเร็กทอรีที่คุณต้องการเก็บโปรเจค
+เปิดโปรเจค:
+
+หลังจากที่สร้างโปรเจคเสร็จแล้ว VS Code จะเปิดโปรเจคในหน้าต่างใหม่
+การรันโปรเจค Flutter ใน VS Code
+เปิด Terminal:
+
+ไปที่เมนู Terminal แล้วเลือก New Terminal หรือกด Ctrl+Shift+
+รันโปรเจค:
+
+ใน Terminal พิมพ์คำสั่ง flutter run แล้วกด Enter
+เลือกอุปกรณ์ที่จะรัน (เช่น emulator หรือ physical device) ถ้ามีหลายอุปกรณ์เชื่อมต่อ
+การทดสอบโปรเจคบน Emulator หรือ Device
+ติดตั้ง Android Studio (สำหรับ Android Emulator):
+
+ดาวน์โหลดและติดตั้ง Android Studio จาก Android Studio
+ติดตั้ง Android SDK และสร้าง Android Virtual Device (AVD)
+รัน Android Emulator:
+
+เปิด Android Studio แล้วไปที่ AVD Manager เพื่อรัน emulator
+
+
+เว็บไซต์ Netlify ไปที่ Netlify และสมัครหรือลงชื่อเข้าใช้ flutter website
