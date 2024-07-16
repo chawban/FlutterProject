@@ -11,8 +11,8 @@ class MainMenu2 extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Image.asset('asset/pig1.jpg'),
-              Image.asset('asset/pig2.jpg'),
+              MenuItem(title: 'Item 1'),
+              MenuItem(title: 'Item 2'),
             ],
           ),
           Row(
