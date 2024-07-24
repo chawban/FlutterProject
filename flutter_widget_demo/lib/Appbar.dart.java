@@ -22,7 +22,7 @@ class AppBarExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red, // กำหนดสีของ AppBar เป็นสีแดง
+        backgroundColor: Colors.red, // ��˹��բͧ AppBar ����ᴧ
         leading: IconButton(
           icon: Icon(Icons.home),
           onPressed: () {
@@ -128,7 +128,7 @@ class AppBarExample2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.pink[400], // กำหนดสีของ AppBar เป็นสีpink
+        backgroundColor: Colors.pink[400], // ��˹��բͧ AppBar ����pink
         leading: IconButton(
           icon: Icon(Icons.home),
           onPressed: () {
@@ -174,27 +174,16 @@ class AppBarExample2 extends StatelessWidget {
           Expanded(
             child: Row(
               children: [
-                Text('ลิ้งไปหน้าที่ 1'),
-                // Text('\n\n\nลิ้งไปหน้าที่ 1 =>2'),
+                Text('Text 1'),
               ],
             ),
           ),
           Expanded(
-            child: MouseRegion(
-              cursor: SystemMouseCursors.click,
-              child: InkWell(
-                /* onTap = () {
-                  Navigator.pushNamed(context, '/page2');
-                  print('Text clicked');
-                  // ทำการกระทำอื่นๆ ที่คุณต้องการเมื่อคลิกที่ข้อความ
-                },
-                */
-                child: Text(
-                  'กดเพื่อกลับหน้าหลัก ส่วนนี้คือหน้าที่ 2',
-                  style: TextStyle(fontSize: 18, color: Colors.blue),
-                ),
-              ),
-            ), //mouse
+            child: Row(
+              children: [
+                Text('Text 2'),
+              ],
+            ),
           ),
           Expanded(
             child: Row(
@@ -228,7 +217,7 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green, // กำหนดสีของ AppBar เป็นสีแดง
+        backgroundColor: Colors.green, // ��˹��բͧ AppBar ����ᴧ
         title: Text('Second Page'),
       ),
       body: Center(
@@ -238,10 +227,10 @@ class SecondPage extends StatelessWidget {
             onTap: () {
               Navigator.pop(context);
               print('Text clicked');
-              // ทำการกระทำอื่นๆ ที่คุณต้องการเมื่อคลิกที่ข้อความ
+              // �ӡ�á�з����� ���س��ͧ�������ͤ�ԡ����ͤ���
             },
             child: Text(
-              'กดเพื่อกลับหน้าหลัก ส่วนนี้คือหน้าที่ 2',
+              '�����͡�Ѻ˹����ѡ ��ǹ�����˹�ҷ�� 2',
               style: TextStyle(fontSize: 18, color: Colors.blue),
             ),
           ),
@@ -252,10 +241,10 @@ class SecondPage extends StatelessWidget {
           onTap: () {
             //onPressed: () {
             Navigator.pop(context);
-            // ทำการกระทำอื่นๆ ที่คุณต้องการเมื่อคลิกที่ข้อความ
+            // �ӡ�á�з����� ���س��ͧ�������ͤ�ԡ����ͤ���
           },
           child: Text(
-            'กดเพื่อกลับหน้าหลัก ส่วนนี้คือหน้าที่ 2',
+            '�����͡�Ѻ˹����ѡ ��ǹ�����˹�ҷ�� 2',
             style: TextStyle(fontSize: 20, color: Colors.blue),
           ),
         ), // GestureDetector
@@ -271,8 +260,8 @@ class ThirdPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green[900], // กำหนดสีของ AppBar เป็นสีเขียว
-        title: Text('หน้าที่ 3.'),
+        backgroundColor: Colors.green[900], // ��˹��բͧ AppBar ��������
+        title: Text('˹�ҷ�� 3.'),
       ),
       body: Center(
         child: MouseRegion(
@@ -281,10 +270,10 @@ class ThirdPage extends StatelessWidget {
             onTap: () {
               Navigator.pop(context);
               print('Text clicked');
-              // ทำการกระทำอื่นๆ ที่คุณต้องการเมื่อคลิกที่ข้อความ
+              // �ӡ�á�з����� ���س��ͧ�������ͤ�ԡ����ͤ���
             },
             child: Text(
-              'กดเพื่อกลับหน้าหลัก ส่วนนี้คือหน้าที่ 3',
+              '�����͡�Ѻ˹����ѡ ��ǹ�����˹�ҷ�� 3',
               style: TextStyle(fontSize: 18, color: Colors.blue),
             ),
           ),
@@ -295,10 +284,10 @@ class ThirdPage extends StatelessWidget {
           onTap: () {
             //onPressed: () {
             Navigator.pop(context);
-            // ทำการกระทำอื่นๆ ที่คุณต้องการเมื่อคลิกที่ข้อความ
+            // �ӡ�á�з����� ���س��ͧ�������ͤ�ԡ����ͤ���
           },
           child: Text(
-            'กดเพื่อกลับหน้าหลัก ส่วนนี้คือหน้าที่ 2',
+            '�����͡�Ѻ˹����ѡ ��ǹ�����˹�ҷ�� 2',
             style: TextStyle(fontSize: 20, color: Colors.blue),
           ),
         ), // GestureDetector

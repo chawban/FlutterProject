@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'appbar.dart';
 
-void main1() {
+void main() {
   runApp(const MyApp());
 }
+/*
+void main() => runApp(const AppBarApp());
+*/
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
